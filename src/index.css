@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #eeeff0;
+}
+
+/*
+organe color- #f99f1c
+gray- #eeeff0
+white -#fefefe
+logo-black -#221314
+bottom-logo-black -#221314
+popular text- #1b2938
+card-name -#6b7785
+avatar/subscribe - #fd6011
+
+mobile-hero -#fd9460
+*/
