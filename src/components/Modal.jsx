@@ -69,7 +69,7 @@ const Modal = () => {
           <input
             type='text'
             className='rounded-lg border py-2 pl-10 pr-8 md:pr-40'
-            placeholder='Image Url'
+            placeholder='Image Url eg: Cake.jpg'
             {...register('ImageUrl', { required: 'Image Url is required' })}
           />
           <ErrorMessage

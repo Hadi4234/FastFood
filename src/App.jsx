@@ -6,17 +6,16 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Popular from './components/Popular';
 import Recommended from './components/Recommended';
-import { fetchItems } from './slice/cardSlice';
 const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     const fetchData = async () => {
-      const url = import.meta.env.VITE_API_URL || process.env.URL ;
+      const url = import.meta.env.VITE_API_URL || process.env.URL;
       try {
         const response = await fetch(url);
         if (response.ok) {
           const result = await response.json();
-          dispatch(fetchItems(result.Items));
+          // dispatch(fetchItems(result.Items));
         } else {
           throw new Error('Failed to fetch data');
         }
