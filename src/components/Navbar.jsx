@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className='relative mr-1 md:mr-3 '>
             <input
               type='text'
-              className=' rounded-lg border  py-2 pl-10 focus:outline-none md:px-6 md:pl-10 md:pr-40'
+              className=' rounded-lg border py-2 pl-10 focus:outline-none md:px-6 md:pl-10 md:pr-40'
               placeholder='Search Audiobook'
             />
             <div
@@ -41,7 +41,7 @@ const Navbar = () => {
               </svg>
             </div>
           </div>
-          <Popover className='relative '>
+          <Popover className='relative max-sm:hidden'>
             <Popover.Button
               as='div'
               className=' flex flex-row items-center justify-between gap-8 rounded-lg bg-customWhite px-2 py-2 font-medium text-customBlack focus:outline-customTextLightGray  md:px-4'

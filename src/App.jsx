@@ -28,7 +28,7 @@ const App = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
-    <div className=' container relative mx-auto max-w-screen-2xl font-poppins'>
+    <div className='container relative mx-auto max-w-screen-2xl font-poppins'>
       <Navbar />
       <Hero />
       <Popular />
